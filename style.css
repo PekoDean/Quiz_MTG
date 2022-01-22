@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Magic';
+    src: url(./Fonts/MAGIC.TTF);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body {
+    /* font-family: ; */
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    min-height: 100vh;
+    background:crimson;
+    background-image: url(./Images/abA8GhM.webp);
+    background-size: cover;
+    color: #6e0a0a;
+    font-family: 'Magic';
+}
+h1 {
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+h3 {
+    color: #9da7b4;
+    font-size: 1.5rem;
+}
+/* CONTAINER */
+.choices {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem auto 3rem;
+    width: 500px;
+}
+button {
+    flex: 1 0 45%;
+    width: 200px;
+    height: 80px;
+    border-radius: 5px;
+    background-repeat: 5px;
+    cursor: pointer;
+    border: none;
+    margin: .4rem;
+    outline: none;
+    background: #dfe4ea;
+    user-select: none;
+    font-weight: 400;
+    font-family: 'Magic';
+}
+button:hover {
+    background: #ffa502;
+    transition: .5s;
+}
+button:active {
+    transform: scale(.9);
+    transition: .1s;
+}
+.btn2 {
+    width: 100px;
+    height: 40px;
+    background: #9da7b4;
+    font-family: 'Magic';
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+#progress {
+    font-size: 1.3rem;
+    color: #9da7b4;
+}
+.neutral {
+    background: #dfe4ea;
+
+}
+.correct {
+    background: rgb(8, 167, 21);
+
+}
+.wrong {
+    background: rgb(206, 5, 5);
+}
+
